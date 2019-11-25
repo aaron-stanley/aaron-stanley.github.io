@@ -1,5 +1,5 @@
 body {
-	background: url(images/red.png);
+	background-color: red;
 	background-repeat: repeat;
 	background-size: cover;
 	background-position: center; 
