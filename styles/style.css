@@ -115,6 +115,10 @@ a {
 	color: lightgrey;
 }
 
+h3{
+	text-decoration: underline;
+}
+
 
 .column3 {
   float: left;
