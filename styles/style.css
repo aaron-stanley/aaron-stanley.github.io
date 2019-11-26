@@ -44,6 +44,7 @@ html {
   border: 3px lightgrey;
   background-color: white;
   border-radius: 25px;
+  padding: 5px; 
   align: center; 
 }
 .rect {
