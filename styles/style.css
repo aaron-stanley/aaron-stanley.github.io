@@ -18,6 +18,14 @@ html {
  /* border: 3px solid lightgrey;  */
 }
 
+.centerImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 3%
+}
+
  .title{
   margin-top: 5%; 
   text-align: center;
@@ -41,11 +49,13 @@ html {
   text-align: center;
   font-family: 'Solway', serif;
   font-size: 1.5vw; 
-  border: 3px solid grey;
+  border: 3px solid lightgrey;
   background-color: white;
   border-radius: 25px;
-  padding: 5px; 
-  align: center; 
+  padding: 3px; 
+  width: 70%; 
+  margin-left: auto;
+  margin-right: auto; 
 }
 .rect {
   height: 50%; 
