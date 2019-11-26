@@ -26,6 +26,16 @@ html {
   font-family: 'Solway', serif;
 }
 
+.introWidth{ 
+  color: black;
+  text-align: center;
+  font-family: 'Solway', serif;
+  font-size: 1.5vw; 
+  border: 3px solid white;
+  background-color: lightgrey;
+  border-radius: 25px;
+}
+
 .rect {
   height: 50%; 
   width: 100%; 
@@ -44,31 +54,6 @@ html {
   transform: translate(-50%, -50%);
 }
 
-.bottom-right-git {
-  position: absolute;
-  bottom: 32%;
-  right: 15%;
-}
-
-.bottom-right-face {
-  position: absolute;
-  bottom: 32%;
-  right: 9%;
-}
-
-
-.bottom-right-linked {
-  position: absolute;
-  bottom: 17%;
-  right: 15%;
-}
-
-.bottom-right-mail {
-  position: absolute;
-  bottom: 17%;
-  right: 9%;
-}
-
 #nameFont{
 	font-family: 'Poiret One', cursive;
 	color: white;
@@ -80,8 +65,6 @@ html {
 	color: white;
 	margin-left: 6%;
 }
-
-
 
 .imgHead {
   border-radius: 50%;
@@ -136,4 +119,19 @@ a {
 	font-size: 2vw;
 	color: lightgrey;
 }
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  width: 90%; 
+}
+
 
