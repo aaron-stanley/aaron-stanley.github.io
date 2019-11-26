@@ -36,6 +36,17 @@ html {
   border-radius: 25px;
 }
 
+.subIntro{ 
+  color: black;
+  text-align: center;
+  font-family: 'Solway', serif;
+  font-size: 1.5vw; 
+  border: 3px lightgrey;
+  background-color: white;
+  border-radius: 25px;
+  width: 70%;
+  align: center; 
+}
 .rect {
   height: 50%; 
   width: 100%; 
@@ -54,6 +65,7 @@ html {
   transform: translate(-50%, -50%);
 }
 
+
 #nameFont{
 	font-family: 'Poiret One', cursive;
 	color: white;
@@ -66,32 +78,14 @@ html {
 	margin-left: 6%;
 }
 
-.imgHead {
-  border-radius: 50%;
-  width: 20%;
-  height: auto;
-  margin-top: 20%; 
-  margin-left: 4%;
-  border: 2px solid white;
-  text-align: center; 
-  font-size: 2vw; 
-  }
-
-
-.Headshotcaption {
-    font-size: 1.7vw;
-    text-align: center;
-    color: white;
-    font-family: 'Poiret One', cursive;
-}
 
 .projImg{
-  float: right;
   width: 20%;
-  height: auto; 
-  text-align: middle; 
-  border: 1px solid white;
-  margin-right: 8%; 
+  height: auto;  
+  border: 1px solid white; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .ImgDiv{
@@ -101,18 +95,18 @@ html {
 
 
 .pWidth{
-	width: 55%; 
+	width: 80%; 
 }
 
 li {
-	font-size: 2.5vw; 
+	font-size: 2.8vw; 
   font-family: 'Solway', serif; 
 	
 }
 
 p {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 1.5vw;  
+	font-size: 2vw;  
 }
 
 a {
@@ -120,10 +114,15 @@ a {
 	color: lightgrey;
 }
 
-.column {
+
+.column3 {
   float: left;
   width: 33.33%;
-  padding: 5px;
+}
+
+.column2 {
+  float: left;
+  width: 40%;
 }
 
 /* Clearfix (clear floats) */
@@ -131,7 +130,5 @@ a {
   content: "";
   clear: both;
   display: table;
-  width: 90%; 
+  width: 95%; 
 }
-
-
